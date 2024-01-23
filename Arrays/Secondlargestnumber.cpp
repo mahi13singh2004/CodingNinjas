@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 vector<int> getSecondOrderElements(int N, vector<int>array) {
     int largest=INT_MIN;
     int second_largest=INT_MIN;
