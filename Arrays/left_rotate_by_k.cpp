@@ -16,3 +16,13 @@ vector<int> rotateArray(vector<int>array, int K) {
 
     return array;
 }
+
+//OPTIMAL
+vector<int> rotateArray(vector<int>array, int k) {
+    int N=array.size();
+    reverse(array.begin(),array.begin()+k);
+    reverse(array.begin()+k, array.end());
+    reverse(array.begin(),array.end());
+    return array;
+}
+
