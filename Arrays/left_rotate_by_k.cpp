@@ -26,3 +26,14 @@ vector<int> rotateArray(vector<int>array, int k) {
     return array;
 }
 
+//Better to use reverse function instead of inbuilt:
+//while(start<=end){
+//int temp=array[start];
+//array[start]=array[end];
+//array[end]=temp;
+//start++;
+//end--;
+//}
+//return array
+//Here start and end are iterators pointing to index
+
